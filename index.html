@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pujitha | Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <div class="logo">Pujitha.dev</div>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section id="about" class="hero">
+    <div class="badge">AVAILABLE FOR OPPORTUNITIES</div>
+    <h1>Hi, I'm <span>Pujitha Boddu</span></h1>
+    <h2>Full Stack Web Developer</h2>
+    <p>I build beautiful, functional web applications using modern technologies.</p>
+    <div class="btn-group">
+      <a href="#projects" class="btn-primary">View Projects</a>
+      <a href="#contact" class="btn-outline">Contact Me</a>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <h2 class="section-title">My <span>Skills</span></h2>
+    <div class="skills-grid">
+      <div class="skill-card">🌐 HTML / CSS</div>
+      <div class="skill-card">⚡ JavaScript</div>
+      <div class="skill-card">⚛️ React.js</div>
+      <div class="skill-card">🟢 Node.js</div>
+      <div class="skill-card">🍃 MongoDB</div>
+      <div class="skill-card">🐙 GitHub</div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2 class="section-title">Featured <span>Projects</span></h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="tag">HTML · CSS · JS</div>
+        <h3>Portfolio Website</h3>
+        <p>Personal portfolio to showcase skills and projects.</p>
+        <a href="https://github.com/pujithaboddu/FUTURE_FS_01" class="project-link">View on GitHub →</a>
+      </div>
+      <div class="project-card">
+        <div class="tag">React · MongoDB</div>
+        <h3>Mini CRM System</h3>
+        <p>Client lead management with status tracking and notes.</p>
+        <a href="https://github.com/pujithaboddu/FUTURE_FS_02" class="project-link">View on GitHub →</a>
+      </div>
+      <div class="project-card">
+        <div class="tag">HTML · CSS · JS</div>
+        <h3>Business Website</h3>
+        <p>Professional website for a local business with live demo.</p>
+        <a href="https://github.com/pujithaboddu/FUTURE_FS_03" class="project-link">View on GitHub →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="contact-box">
+      <h2>Get In Touch</h2>
+      <p>Have a project or opportunity? Let's connect!</p>
+      <div class="contact-form">
+        <input type="text" id="name" placeholder="Your Name" />
+        <input type="email" id="email" placeholder="Your Email" />
+        <textarea id="message" placeholder="Your Message..."></textarea>
+        <button onclick="sendMessage()" class="btn-primary">Send Message</button>
+        <p id="success-msg" style="display:none; color:#7c6af7; font-weight:600;">
+          ✅ Message sent successfully!
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Pujitha Boddu · Full Stack Developer</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
